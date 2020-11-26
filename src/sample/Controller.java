@@ -14,6 +14,7 @@ public class Controller {
     @FXML
     private Label idlabelNombre;
 
+
     @FXML
     public void onEdadClicked(MouseEvent event) {
         idlabelEdad.setText(perro.edad.toString());
